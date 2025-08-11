@@ -4,6 +4,7 @@ import logging
 from logging import Logger
 from typing import Optional
 
+#send log messages to the console
 def get_logger (
         name: Optional[str] =None,
         level: int =logging.INFO,
