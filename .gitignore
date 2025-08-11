@@ -1,0 +1,12 @@
+# Fichiers Python
+__pycache
+*.pyc
+
+# Fichiers d'environnement
+.env
+
+# Dossier de build/dépendances
+.venv/
+dist/
+build/
+*.egg-info/
