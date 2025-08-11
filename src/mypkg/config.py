@@ -5,7 +5,7 @@ import os
 
 @dataclass
 class Config:
-    env: str = "dev"
+    env: str = "prd"
     data_path: str = "data/input.csv"
     log_level: str = "INFO"
 
